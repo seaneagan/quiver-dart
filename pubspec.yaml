@@ -7,6 +7,7 @@ authors:
 - Alexandre Ardhuin <alexandre.ardhuin@gmail.com>
 - David Morgan <davidmorgan@google.com>
 - John McDole <codefu@google.com>
+- Sean Eagan <seaneagan1@gmail.com>
 description: A set of utility libraries for Dart
 homepage: https://github.com/google/quiver-dart
 documentation: http://google.github.io/quiver-dart/docs/
