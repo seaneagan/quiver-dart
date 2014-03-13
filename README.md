@@ -45,6 +45,15 @@ code that depends on Timer.
 
 [quiver.async]: http://google.github.io/quiver-dart/docs/quiver.async.html
 
+## [quiver.base][]
+
+Generic data structures.
+
+`Pair` represents a mapping from key to value such as associations in a Map or 
+MultiMap.
+
+[quiver.core]: http://google.github.io/quiver-dart/docs/quiver.core.html
+
 ## [quiver.cache][]
 
 `Cache` is a semi-persistent, asynchronously accessed, mapping of keys to
@@ -99,6 +108,13 @@ Python's itertools.
 iterable.
 
 [quiver.iterables]: http://google.github.io/quiver-dart/docs/quiver.iterables.html
+
+## [quiver.maps][]
+
+`pairs` returns a view of the Pairs in a Map
+`fromPairs` creates a Map from an iterable of Pairs
+
+[quiver.maps]: http://google.github.io/quiver-dart/docs/quiver.maps.html
 
 ## [quiver.mirrors][]
 

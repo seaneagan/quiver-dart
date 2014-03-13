@@ -17,11 +17,13 @@ library quiver.all_tests;
 import 'package:unittest/compact_vm_config.dart';
 
 import 'async/all_tests.dart' as async;
+import 'base/all_tests.dart' as base;
 import 'cache/map_cache_test.dart' as cache;
 import 'collection/all_tests.dart' as collection;
 import 'core/all_tests.dart' as core;
 import 'io_test.dart' as io;
 import 'iterables/all_tests.dart' as iterables;
+import 'maps/all_tests.dart' as maps;
 import 'mirrors_test.dart' as mirrors;
 import 'pattern/all_tests.dart' as pattern;
 import 'streams/all_tests.dart' as streams;
@@ -32,11 +34,13 @@ import 'time/all_tests.dart' as time;
 main() {
   useCompactVMConfiguration();
   async.main();
+  base.main();
   cache.main();
   collection.main();
   core.main();
   io.main();
   iterables.main();
+  maps.main();
   mirrors.main();
   pattern.main();
   streams.main();
